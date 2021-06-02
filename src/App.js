@@ -1,6 +1,10 @@
 import React from "react";
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    console.log("hello");
+  }
   state = {
     count: 0,
   };
@@ -10,7 +14,14 @@ class App extends React.Component {
   minus = () => {
     this.setState((current) => ({ count: current.count - 1 }));
   };
+  componentDidMount() {
+    console.log("rendered");
+  }
+  componentDidUpdate() {
+    console.log("updeated");
+  }
   render() {
+    console.log("rendering");
     return (
       <div>
         <h1>A class {this.state.count}</h1>
@@ -20,5 +31,6 @@ class App extends React.Component {
     );
   }
 }
+console.log("-------");
 
 export default App;
