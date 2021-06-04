@@ -1,0 +1,23 @@
+img {
+  /* height: 200px; */
+}
+
+.movie__year,
+.movie__title {
+  margin: 5px 0px;
+}
+
+.movie__summary {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.movie {
+  /* margin-bottom: 30px; */
+  /* width: 180px; */
+}
