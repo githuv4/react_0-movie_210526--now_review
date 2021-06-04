@@ -1,5 +1,5 @@
-img {
-  /* height: 200px; */
+.movie {
+  padding: 20px;
 }
 
 .movie__year,
@@ -14,10 +14,16 @@ img {
 
 ul,
 li {
-  list-style: none;
+  all: unset;
+  display: flex;
+  font-size: 12px;
+  color: darkslateblue;
 }
 
-.movie {
-  /* margin-bottom: 30px; */
-  /* width: 180px; */
+.movie img {
+  position: relative;
+  top: -40px;
+  width: 180px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }

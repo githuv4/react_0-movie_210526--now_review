@@ -11,11 +11,13 @@ function Movie({ year, title, summary, poster, genres }) {
       <ul className="movie__genres genres">
         {genres.map((genre, index) => (
           <li key={index} className="genres__genre">
-            {genre}
+            {index == genres.length - 1 ? genre : `${genre}/`}
           </li>
         ))}
       </ul>
-      <p className="movie__summary">{summary}</p>
+      <p className="movie__summary">
+        {summary.length > 150 ? `${summary.substring(0, 150)}...` : summary}
+      </p>
     </div>
   );
 }
