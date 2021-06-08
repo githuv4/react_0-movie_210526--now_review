@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/githuv4/react_0-movie_210526--now_review/static/css/main.52e00c70.chunk.css",
+    "main.js": "/githuv4/react_0-movie_210526--now_review/static/js/main.3e676192.chunk.js",
+    "main.js.map": "/githuv4/react_0-movie_210526--now_review/static/js/main.3e676192.chunk.js.map",
+    "runtime-main.js": "/githuv4/react_0-movie_210526--now_review/static/js/runtime-main.d5e0a84d.js",
+    "runtime-main.js.map": "/githuv4/react_0-movie_210526--now_review/static/js/runtime-main.d5e0a84d.js.map",
+    "static/js/2.35e6751a.chunk.js": "/githuv4/react_0-movie_210526--now_review/static/js/2.35e6751a.chunk.js",
+    "static/js/2.35e6751a.chunk.js.map": "/githuv4/react_0-movie_210526--now_review/static/js/2.35e6751a.chunk.js.map",
+    "index.html": "/githuv4/react_0-movie_210526--now_review/index.html",
+    "static/css/main.52e00c70.chunk.css.map": "/githuv4/react_0-movie_210526--now_review/static/css/main.52e00c70.chunk.css.map",
+    "static/js/2.35e6751a.chunk.js.LICENSE.txt": "/githuv4/react_0-movie_210526--now_review/static/js/2.35e6751a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5e0a84d.js",
+    "static/js/2.35e6751a.chunk.js",
+    "static/css/main.52e00c70.chunk.css",
+    "static/js/main.3e676192.chunk.js"
+  ]
+}
