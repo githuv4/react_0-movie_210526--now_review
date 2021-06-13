@@ -7,7 +7,7 @@ const Nav = styled.div`
   flex-direction: column;
   margin: 5px;
   background-color: white;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
   width: 80px;
   padding: 3px;
   align-items: center;
@@ -22,6 +22,10 @@ const Nav = styled.div`
 const Linka = styled(Link)`
   text-decoration: none;
   color: darkblue;
+  padding: 5px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
 `;
 
 function Navigation() {
